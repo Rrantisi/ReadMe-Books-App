@@ -32,6 +32,11 @@
     background-color: #5b6e8524;
 }
 
+.SearchForm input:hover{
+    background-color: #5b6e850a;
+    transition: 500ms;
+}
+
 .SearchForm button {
     padding: 1vmin 2vmin;
     outline: none;

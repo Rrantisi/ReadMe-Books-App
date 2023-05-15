@@ -1,0 +1,65 @@
+.Book {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vmin;
+}
+
+.book-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vmin;
+    margin: 4vmin;
+}
+
+.book-wrapper > h2 {
+    color: #2c3b4d;
+    font-size: 3.2vmin;
+    text-align: center;
+}
+
+.book-wrapper > img {
+    border: 0.5vmin solid #2c3b4d6b;
+    height: 75vmin;
+    padding: 1vmin;
+}
+
+.book-details > a {
+    text-decoration: none;
+    padding-bottom: 2vmin;
+    font-size: 2vmin;
+    color: #f46600;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1vmin;
+    cursor: pointer;
+}
+
+.book-details > a:hover {
+    color: #2c3b4d;
+}
+
+.book-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 6vmin;
+    text-align: justify;
+}
+
+.book-details span {
+    color: #f46600;
+    font-weight: 600;
+    font-size: 2.2vmin;
+}
+
+.description {
+    margin-top: 0vmin;
+}
+
+
+
