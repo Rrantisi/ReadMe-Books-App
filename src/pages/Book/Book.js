@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 
 export default function Book(props) {
     const { id } = useParams();
+    const key = 'AIzaSyDop10aXF-PebMOztMlg9Ku-iiM1D8JewQ';
     const URL = `https://www.googleapis.com/books/v1/volumes/${id}`;
 
     const [book, setBook] = useState(null);
@@ -29,7 +30,7 @@ export default function Book(props) {
         return (
             <div>
                 <h2>{book.volumeInfo.title}</h2>
-                <img src={book.volumeInfo.imageLinks?.thumbnail} alt={book.volumeInfo.title} />
+                <img src={book.volumeInfo.imageLinks?.thumbnail} alt="" />
                 <p>Author: {book.volumeInfo.authors?.join(', ')}</p>
                 <p>Categories: {book.volumeInfo.categories?.join(', ')}</p>
                 <p dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }}></p>
