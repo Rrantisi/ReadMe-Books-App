@@ -31,7 +31,9 @@ export default function SearchForm() {
             <button type="submit">Search</button>
         </form>
         < hr/>
-        <SearchResult searchResult={searchResult} />
+        <div className="SearchResult">
+            <SearchResult searchResult={searchResult} />
+        </div>
         </div>
     )
 

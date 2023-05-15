@@ -1,0 +1,20 @@
+.SearchResult > ul {
+    list-style: none;
+}
+
+.SearchResult a {
+    text-decoration: none;
+    color: #2c3b4d;
+
+}
+
+.SearchResult a:hover {
+    text-decoration: none;
+    color: #f46600;
+}
+
+.SearchResult li {
+    padding: 0.2vmin;
+}
+
+
