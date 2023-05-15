@@ -15,6 +15,14 @@
 
 .SearchResult li {
     padding: 0.2vmin;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: left;
+    gap: 2vmin;
 }
 
+.SearchResult img {
+    height: 10vmin;
+}
 

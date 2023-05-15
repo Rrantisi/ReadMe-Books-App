@@ -21,7 +21,9 @@ export default function App() {
           <Route path="/search" element={ <SearchForm /> } />
         </Routes>
       </main>
-    <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
