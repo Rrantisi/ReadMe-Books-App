@@ -6,7 +6,7 @@ import Main from '../../pages/Main/Main';
 import Books from '../../pages/Books/Books';
 import Book from '../../pages/Book/Book';
 import SearchForm from '../../components/SearchForm/SearchForm';
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer';
 
 export default function App() {
   const [books, setBooks] = useState([])
