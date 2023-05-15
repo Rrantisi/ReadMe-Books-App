@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Nav = (props) => {
+export default function Nav() {
     return (
         <nav className="nav">
             <Link to="/">Home</Link>
@@ -11,5 +11,3 @@ const Nav = (props) => {
         </nav>
     );
 };
-
-export default Nav;
