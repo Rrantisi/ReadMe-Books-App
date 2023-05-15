@@ -2,9 +2,13 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Books({books, setBooks}) {
+    const key = 'AIzaSyDop10aXF-PebMOztMlg9Ku-iiM1D8JewQ';
+    const categories = 'bestseller';
+    const URL = `https://www.googleapis.com/books/v1/volumes?q=categories:${categories}&maxResults=32&key=${key}`;
+
     const fetchBooks = async () => {
         try {
-            const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=categories:bestseller&maxResults=32`);
+            const response = await fetch(URL);
             const bookData = await response.json();
             setBooks(bookData.items);
         } catch (error) {
