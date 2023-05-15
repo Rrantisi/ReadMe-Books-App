@@ -1,3 +1,4 @@
+import './SearchForm.css'
 import { useState } from 'react';
 import SearchResult from '../../pages/SearchResult/SearchResult';
 
@@ -21,17 +22,17 @@ export default function SearchForm() {
     }
 
     return (
-        <>
+        <div className="SearchForm">
         <form onSubmit={handleSubmit}>
             <label>
                 Search Books:
-                <input type="text" value={searchInput} onChange={handleChange} />
             </label>
+            <input type="text" value={searchInput} onChange={handleChange} />
             <button type="submit">Search</button>
         </form>
         < hr/>
         <SearchResult searchResult={searchResult} />
-        </>
+        </div>
     )
 
 }
