@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -46,10 +52,4 @@ nav img {
 
 .logo-container > span {
   font-size: 2.2vmin;
-}
-
-Footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
