@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
+import { getUser } from '../../utilities/users-service';
 import './App.css';
 import Nav from '../../components/Nav/Nav';
 import Main from '../../pages/Main/Main';
@@ -11,13 +12,13 @@ import Footer from '../../components/Footer/Footer';
 
 export default function App() {
   const [books, setBooks] = useState([]);
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(getUser());
 
   return (
     <div className="App">
       {user ? (
         <>
-          <Nav />
+          <Nav user={user} setUser={setUser} />
           <Routes>
             {/* <Route path="/" element={ <Main /> } /> */}
             <Route path="/books" element={ <Books books={books} setBooks={setBooks}/> } />

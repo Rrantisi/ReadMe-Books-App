@@ -34,7 +34,7 @@ export default function SignUpForm({ setUser }){
         }
     }
 
-    const disabled = formInputs.password !== formInputs.confirm;
+    // const disabled = 
 
     return (
         <div>
@@ -72,7 +72,7 @@ export default function SignUpForm({ setUser }){
                 onChange={handleChange}
                 required
             />
-            <button type="submit" disabled={disabled}>Sign Up</button>
+            <button type="submit" disabled={formInputs.password !== formInputs.confirm}>Sign Up</button>
           </form>
         </div>
         <p className="error-message">&nbsp;{error}</p>
