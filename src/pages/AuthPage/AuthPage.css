@@ -11,16 +11,18 @@ main {
     grid-row-start: 1;
     grid-row-end: 3;
     font-size: 1.5vmin;
-}
+    font-family: 'Patrick Hand', cursive;}
 
 h2 {
     text-transform: uppercase;
-    color: #2c3b4dad;
+    color: #2c3b4dc6;
+    font-size: 3vmin;
 }
 
 h3 {
     margin-top: -2vmin;
-    color: #2c3b4dad;
+    color: #2c3b4dc6;
+    font-size: 2.5vmin;
 }
 
 .logo-section {
@@ -33,10 +35,23 @@ h3 {
     flex-grow: 1;
 }
 
+.logo-section > h1 {
+    font-size: 6vmin;
+}
+
+.logo-section > p {
+    font-size: 3vmin;
+    padding: 2vmin 8vmin;
+}
+
 .auth-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+
+img {
+    height: 40vmin;
 }

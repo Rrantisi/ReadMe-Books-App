@@ -15,10 +15,11 @@
 
 label, input{
     margin-bottom: 0.8vmin;
+    font-size: 2vmin;
 }
 
 input {
-    padding: 1vmin;
+    padding: 1.2vmin;
     width: 30vmin;
     border: none;
     background-color: aliceblue;
