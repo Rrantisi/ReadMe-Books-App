@@ -39,7 +39,7 @@ export default function Book(props) {
                     <p><span>Description:</span></p>
                     <p dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} className="description"></p>
                     <br/>
-                    <a href={book.volumeInfo.previewLink} target={'_blank'}>Preview Book Here</a>
+                    <a href={book.volumeInfo.previewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
                 </div>
             </div>
         )
