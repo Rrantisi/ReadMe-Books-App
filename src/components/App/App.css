@@ -48,6 +48,10 @@ nav {
   text-transform: uppercase;
 }
 
+.nav-links > a:hover {
+  border-bottom: 1px solid aliceblue;
+}
+
 nav img {
   height: 5vmin;
 }
