@@ -6,8 +6,9 @@ export default function SearchForm() {
     const [searchInput, setSearchInput] = useState('');
     const [searchResult, setSearchResult] = useState([]);
 
-    // const key = 'AIzaSyDop10aXF-PebMOztMlg9Ku-iiM1D8JewQ';
-    const URL = `https://www.googleapis.com/books/v1/volumes?q=${searchInput}`;
+    const key = process.env.REACT_APP_API_KEY
+
+    const URL = `https://www.googleapis.com/books/v1/volumes?q=${searchInput}&key=${key}`;
 
     async function handleSubmit(event) {
         event.preventDefault();

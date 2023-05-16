@@ -17,8 +17,8 @@ export default function Nav({ user, setUser }) {
                 <span>ReadMe</span>
             </div>
             <div className="nav-links">
-                {/* <Link to="/">Home</Link>
-                &nbsp; | &nbsp; */}
+                <Link to="/">Home</Link>
+                &nbsp; | &nbsp;
                 <Link to="/books">Books</Link>
                 &nbsp; | &nbsp;
                 <Link to="/search">Search</Link>

@@ -20,7 +20,7 @@ export default function App() {
         <>
           <Nav user={user} setUser={setUser} />
           <Routes>
-            {/* <Route path="/" element={ <Main /> } /> */}
+            <Route path="/" element={ <Main /> } />
             <Route path="/books" element={ <Books books={books} setBooks={setBooks}/> } />
             <Route path="/books/:id" element={ <Book /> } />
             <Route path="/search" element={ <SearchForm /> } />

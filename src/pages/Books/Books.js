@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Books({books, setBooks}) {
-    const key = 'AIzaSyDop10aXF-PebMOztMlg9Ku-iiM1D8JewQ';
+    const key = process.env.REACT_APP_API_KEY
     const subject = 'javascript';
     const URL = `https://www.googleapis.com/books/v1/volumes?q=subject:${subject}&key=${key}`;
 
