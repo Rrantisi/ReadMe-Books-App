@@ -11,9 +11,9 @@ main {
     grid-row-start: 1;
     grid-row-end: 3;
     font-size: 1.5vmin;
-    font-family: 'Patrick Hand', cursive;}
+}
 
-h2 {
+.AuthPage h2 {
     text-transform: uppercase;
     color: #2c3b4dc6;
     font-size: 3vmin;
