@@ -15,7 +15,7 @@ export default function App() {
   const [user, setUser] = useState(getUser());
 
   return (
-    <div className="App">
+    <main className="App">
       {user ? (
         <>
           <Nav user={user} setUser={setUser} />
@@ -27,12 +27,12 @@ export default function App() {
           </Routes>
         </>
       ) : (
-        <AuthPage path="/" setUser={setUser}/>
+        <AuthPage path="/" setUser={setUser} />
       )}
-
       <footer>
         <Footer />
       </footer>
-    </div>
+
+    </main>
   );
 }

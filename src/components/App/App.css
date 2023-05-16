@@ -7,17 +7,20 @@
   grid-template-rows: 0.5fr 12.5fr 0.5fr;
 }
 
+main {
+  grid-row: 2;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
   color: #d2deeb;
-  height: 100%;
 }
 
 footer {
-  margin-top: auto;
+  grid-row: 3;
 }
 
 nav {
@@ -27,6 +30,7 @@ nav {
   color: white;
   padding: 1vmin;
   font-size: 1.2em;
+  grid-row: 1;
 }
 
 .nav-links {

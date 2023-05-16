@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100vh;
+} 
+
+.AuthPage {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: #2c3b4d;
+    font-size: 1.5vmin;
+}
+
+.logo-section {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.auth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

@@ -1,3 +1,4 @@
+import './SignUpForm.css';
 import { useState } from 'react';
 import { signUp } from '../../utilities/users-service';
 
@@ -35,7 +36,7 @@ export default function SignUpForm({ setUser }){
     }
 
     return (
-        <div>
+        <div className="SignUpForm">
         <div className="form-container">
           <form autoComplete='off' onSubmit={handleSubmit}>
             <label>Name</label>

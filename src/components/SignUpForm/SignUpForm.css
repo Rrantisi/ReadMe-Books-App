@@ -1,0 +1,26 @@
+.SignUpForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f46600;
+    font-size: 1.8vmin;
+    margin-top: 1vmin;
+}
+
+label, input{
+    margin-bottom: 0.5vmin;
+}
+
+input {
+    padding: 1vmin;
+    width: 30vmin;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+}
