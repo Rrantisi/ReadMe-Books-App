@@ -1,19 +1,17 @@
 import { useState } from 'react';
-import { signUp } from '../../utilities/users-service';
+import * as usersService from '../../utilities/users-service';
 
 export default function SignUpForm({ setUser }){
-    const [formInputs, setFormInputs] = useState({
-        name: '',
+    const [credentials, setCredentials] = useState({
         email: '',
         password: '',
-        confirm: '',
     });
 
     const [error, setError] = useState('');
 
     function handleChange(event) {
-        setFormInputs({ 
-            ...formInputs, 
+        setCredentials({ 
+            ...credentials, 
             [event.target.name]: event.target.value,
         });
         setError('');
@@ -22,12 +20,7 @@ export default function SignUpForm({ setUser }){
     async function handleSubmit(event) {
         event.preventDefault();
         try {
-            const formData = {...formInputs};
-            delete formData.error;
-            delete formData.confirm;
-
-            const user = await signUp(formData);
-
+            const user = await usersService.login(credentials);
             setUser(user);
         } catch {
             setError('Log In Failed - Try Again');
@@ -38,19 +31,11 @@ export default function SignUpForm({ setUser }){
         <div>
         <div className="form-container">
           <form autoComplete='off' onSubmit={handleSubmit}>
-            <label>Name</label>
-            <input 
-                type="text" 
-                name="name" 
-                value={formInputs.name}
-                onChange={handleChange}
-                required
-              />
             <label>Email</label>
             <input 
                 type="email" 
                 name="email"
-                value={formInputs.email}
+                value={credentials.email}
                 onChange={handleChange}
                 required 
               />
@@ -58,19 +43,11 @@ export default function SignUpForm({ setUser }){
             <input 
                 type="password" 
                 name="password"
-                value={formInputs.password}
+                value={credentials.password}
                 onChange={handleChange}
                 required
             />
-            <label>Confirm</label>
-            <input 
-                type="password" 
-                name="confirm"
-                value={formInputs.confirm}
-                onChange={handleChange}
-                required
-            />
-            <button type="submit" disabled={formInputs.password !== formInputs.confirm}>Sign Up</button>
+            <button type="submit">Log In</button>
           </form>
         </div>
         <p className="error-message">&nbsp;{error}</p>
