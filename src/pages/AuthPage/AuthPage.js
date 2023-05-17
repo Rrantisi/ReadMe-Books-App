@@ -13,8 +13,6 @@ export default function AuthPage({ setUser }) {
         <div className="AuthPage">
             <div className="logo-section">
                 <Main />
-                {/* <p className="intro">Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go.</p>
-                <p className="intro">Start your digital reading journey today with our ReadMe website.</p> */}
                 &nbsp; &nbsp;
                 <h3>Join ReadMe Today!</h3>
             </div>

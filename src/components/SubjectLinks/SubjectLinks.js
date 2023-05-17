@@ -31,12 +31,12 @@ export default function SubjectLinks({ setBooks }) {
       fetchBooks(subject)
     };
 
-    function defaultSubject() {
+    function renderDefaultSubject() {
       fetchBooks('javascript');
     }
 
     useEffect(() => {
-      defaultSubject()
+      renderDefaultSubject()
     }, [])
 
     return (
