@@ -25,9 +25,7 @@
 ReadMe is a Digital Book App mainly focused on delivering coding-related books.
 Browse through our user-friendly interface to explore books about major coding languages or use the search bar OR drop-down category menu to search for other books.
 
-Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go.
-
-Let's get started!
+Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -37,13 +35,13 @@ Let's get started!
 
 [Trello Board](https://trello.com/b/cEi5soEZ/project3-readme)
 
-Simply Click on the app link, and sign up to create an account.
-Once you have created an account, you'll be able to access our digital books library.
-On the books page, you'll be able to navigate through five coding languages categories - HTML, CSS, JavaScript, Python and SQL
-Each category, when clicked, will fetch 10 books related to that subject.
-Looking for something else? 
-You can use the Search page to search OR select an category option from the drop-down menu and check out the results.
-Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book.
+- Simply Click on the app link, and sign up to create an account.
+- Once you have created an account, you'll be able to access our digital books library.
+- On the books page, you'll be able to navigate through five coding languages categories - HTML, CSS, JavaScript, Python and SQL
+- Each category, when clicked, will fetch 10 books related to that subject.
+#### Looking for something else? 
+- You can use the Search page to search OR select an category option from the drop-down menu and check out the results.
+- Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book.
 
 ![ReadMe-App](/src/images/hb1.jpeg)
 
