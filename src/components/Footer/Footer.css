@@ -6,3 +6,12 @@ footer {
     font-size: 1em;
     border-top: 0.3vmin solid #7fbbe022;
 }
+
+#copyright {
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1vmin;
+}

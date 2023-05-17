@@ -64,6 +64,7 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 ## Built With
 
 - CSS
+- HTML
 - Javascript
 - [React](https://react.dev/)
 - [Node.js](https://nodejs.org/)
