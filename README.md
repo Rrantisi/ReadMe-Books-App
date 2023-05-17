@@ -22,16 +22,12 @@
 
 ## About the Project
 
-<!-- HummingBird is a vibrant online community platform where you can connect with people from your community and build strong relationships.
+ReadMe is a Digital Book App mainly focused on delivering coding-related books.
+Browse through our user-friendly interface to explore books about major coding languages or use the search bar OR drop-down category menu to search for other books.
 
-Here's why:
+Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go.
 
-- Engage with your local community by creating posts and sharing your knowledge by commenting on someone else's post
-- Ask for recommendations, advice, or any type of help
-- Get to know your neighbors and share common interests and hobbies
-- Make new friends! We really encourage strong community relationships at HummingBird.
-
-Our platform is designed to be a one-stop shop for all your community needs. Whether you are looking for advice or recommendations - you can ask for help and/or donate time by supporting your local community. -->
+Let's get started!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -44,49 +40,49 @@ Our platform is designed to be a one-stop shop for all your community needs. Wh
 Simply Click on the app link, and sign up to create an account.
 Once you have created an account, you'll be able to access our digital books library.
 On the books page, you'll be able to navigate through five coding languages categories - HTML, CSS, JavaScript, Python and SQL
-Each category, when clicked, will fetch 10 books about that subject.
+Each category, when clicked, will fetch 10 books related to that subject.
 Looking for something else? 
-You can use the Search page to search or select an option from the drop-down menu and check out the results.
-Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book on 
+You can use the Search page to search OR select an category option from the drop-down menu and check out the results.
+Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book.
 
-![humming-bird1](/public/imgs/hb1.jpeg)
+![ReadMe-App](/src/images/hb1.jpeg)
 
-![humming-bird1](/public/imgs/hb2.jpeg)
+![ReadMe-App](/src/images/hb2.jpeg)
 
-![humming-bird1](/public/imgs/hb3.jpeg)
+![ReadMe-App](/src/images/hb3.jpeg)
 
-![humming-bird1](/public/imgs/hb4.jpeg)
+![ReadMe-App](/src/images/hb4.jpeg)
 
-![humming-bird1](/public/imgs/hb5.jpeg)
+![ReadMe-App](/src/images/hb5.jpeg)
 
-![humming-bird1](/public/imgs/hb6.png)
+![ReadMe-App](/src/images/hb6.png)
 
-![humming-bird1](/public/imgs/hb7.png)
+![ReadMe-App](/src/images/hb7.png)
 
-![humming-bird1](/public/imgs/erd.png)
+![ReadMe-App](/src/images/erd.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Built With
 
-- EJS
 - CSS
 - Javascript
+- [REACT](https://react.dev/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [MongoDB](https://mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
-- [OAuth 2.0](https://console.cloud.google.com/apis/dashboard)
 - [Heroku](https://www.heroku.com/)
+- [Google-Books-Api](https://developers.google.com/books/docs/v1/using)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Icebox Items
 
-1. Search for posts/people on hummingBird
-2. Like/Save post
-3. Edit/Delete a post
-4. Share post
-5. Notifications feature
+1. Add/Remove a book to/from favorites
+2. View favorites
+3. Preview book content directly in our app
+5. Share a book with a friend
+6. Filter books by category/author
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
