@@ -40,9 +40,16 @@ export default function Book(props) {
                 </div>
                 <div className="book-details">
                     <p><span>Author:</span> {book.volumeInfo.authors?.join(', ')}</p>
-                    <p><span>Categories:</span> {book.volumeInfo.categories?.join(', ')}</p>
+                    {book.volumeInfo.categories? (
+                        <p><span>Categories:</span> {book.volumeInfo.categories?.join(', ')}</p>
+                    ) : (
+                        <p><span>Categories:</span> N/A</p>
+                    )
+                    }
                     <p><span>Description:</span></p>
+                    <div class="description">
                     <p dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} className="description"></p>
+                    </div>
                     <br/>
                     <a href={book.volumeInfo.previewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
                 </div>

@@ -45,3 +45,9 @@ button:hover {
     border-radius: 1vmin;
     cursor: pointer;
 }
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 2vmin;
+}

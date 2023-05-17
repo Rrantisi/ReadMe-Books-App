@@ -1,9 +1,10 @@
 import './AuthPage.css';
 import { useState } from 'react';
 
-import SignUpForm from "../../components/SignUpForm/SignUpForm";
-import LogInForm from "../../components/LogInForm/LogInForm";
-import logo from '../../components/Nav/logo.png'
+import SignUpForm from '../../components/SignUpForm/SignUpForm';
+import LogInForm from '../../components/LogInForm/LogInForm';
+import Main from '../../pages/Main/Main';
+// import logo from '../../components/Nav/logo.png'
 
 export default function AuthPage({ setUser }) {
     const [userStatus, setUserStatus] = useState(false);
@@ -12,10 +13,11 @@ export default function AuthPage({ setUser }) {
       <main>
         <div className="AuthPage">
             <div className="logo-section">
-                <h1>ReadMe</h1>
-                <img src={logo} alt="Logo"/>
-                <p>ReadMe is an online ebook library that helps you search and access digital copies of books</p>
-                <p>Sign Up today!</p>
+                <Main />
+                {/* <p className="intro">Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go.</p>
+                <p className="intro">Start your digital reading journey today with our ReadMe website.</p> */}
+                &nbsp; &nbsp;
+                <h3>Join ReadMe Today!</h3>
             </div>
             <div className="auth-section">
                 {userStatus ? (

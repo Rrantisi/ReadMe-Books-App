@@ -32,7 +32,7 @@ h1 {
 }
 
 .image-fallback {
-    border: 1vmin solid #2c3b4d;
+    border: 0.5vmin solid #2c3b4da3;
     background-color: aliceblue;
     position: absolute;
     height: 100%;
@@ -43,5 +43,7 @@ h1 {
     font-size: 3vmin;
     text-align: center;
     color:#2c3b4d;
+    border-radius: 0.8vmin;
+    height: 90%;
 }
 

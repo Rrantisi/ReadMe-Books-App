@@ -20,9 +20,9 @@ main {
 }
 
 h3 {
-    margin-top: -2vmin;
+    margin-top: 0;
     color: #2c3b4dc6;
-    font-size: 2.5vmin;
+    font-size: 4vmin;
 }
 
 .logo-section {
@@ -39,11 +39,6 @@ h3 {
     font-size: 6vmin;
 }
 
-.logo-section > p {
-    font-size: 3vmin;
-    padding: 2vmin 8vmin;
-}
-
 .auth-section {
     display: flex;
     flex-direction: column;
@@ -52,6 +47,6 @@ h3 {
     flex-grow: 1;
 }
 
-img {
+.intro-logo {
     height: 40vmin;
 }

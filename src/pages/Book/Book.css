@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 4vmin;
+    gap: 2vmin;
 }
 
 .book-wrapper {
@@ -24,7 +24,7 @@
 
 .book-wrapper > img {
     border: 0.5vmin solid #2c3b4d6b;
-    height: 75vmin;
+    height: 50vmin;
     padding: 1vmin;
 }
 
@@ -55,11 +55,23 @@
 .book-details span {
     color: #f46600;
     font-weight: 600;
-    font-size: 2.2vmin;
+    font-size: 2.6vmin;
+}
+
+.book-details p {
+    color: #2c3b4d;
+    font-weight: 600;
+    font-size: 2.6vmin;
+    text-align: left;
 }
 
 .description {
-    margin-top: 0vmin;
+    height: 30vmin;
+    overflow: scroll;
+}
+
+.description {
+    margin-top: 0;
 }
 
 

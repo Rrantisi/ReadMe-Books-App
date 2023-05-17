@@ -24,6 +24,10 @@ footer {
   grid-row: 3;
 }
 
+footer p {
+  color:#5b6e85;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
