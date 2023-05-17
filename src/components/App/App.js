@@ -8,7 +8,6 @@ import AuthPage from '../../pages/AuthPage/AuthPage';
 import Books from '../../pages/Books/Books';
 import Book from '../../pages/Book/Book';
 import SearchForm from '../../components/SearchForm/SearchForm';
-import Categories from '../../pages/Categories/Categories';
 import Footer from '../../components/Footer/Footer';
 
 export default function App() {

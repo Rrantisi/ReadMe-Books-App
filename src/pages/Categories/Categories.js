@@ -41,7 +41,7 @@ export default function Categories({ setMenuOption }) {
                 <option value="">Select a Category</option>
                 { categories.map(item => {
                     return (
-                        <option value={item}>{item}</option>
+                        <option value={item} key={item}>{item}</option>
                     )
                 })}
             </>

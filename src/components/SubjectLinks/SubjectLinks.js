@@ -4,6 +4,7 @@ import css from '../../images/css.png';
 import sql from '../../images/sql.png';
 import python from '../../images/python.png';
 import javascript from '../../images/js.png';
+import { useEffect } from 'react';
 
 export default function SubjectLinks({ setBooks }) {
     const key = process.env.REACT_APP_API_KEY
@@ -15,16 +16,28 @@ export default function SubjectLinks({ setBooks }) {
         {name: 'Python', subject: 'python', src: python},
         {name: 'SQL', subject: 'sql', src: sql}
     ];
+    
+    async function fetchBooks(input) {
+      try {
+        const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=subject:${input}&maxResults=10&key=${key}`)
+        const bookData = await response.json();
+        setBooks(bookData.items)
+    } catch (error) {
 
-    async function handleSubjectClick(subject) {
-        try {
-            const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=subject:${subject}&maxResults=10&key=${key}`)
-            const bookData = await response.json();
-            setBooks(bookData.items)
-        } catch (error) {
+    }
+    }
 
-        }
+    function handleSubjectClick(subject) {
+      fetchBooks(subject)
     };
+
+    function defaultSubject() {
+      fetchBooks('javascript');
+    }
+
+    useEffect(() => {
+      defaultSubject()
+    }, [])
 
     return (
         <div className="SubjectLinks">

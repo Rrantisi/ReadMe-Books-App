@@ -47,7 +47,7 @@ export default function Book(props) {
                     )
                     }
                     <p><span>Description:</span></p>
-                    <div class="description">
+                    <div className="description">
                     <p dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} className="description"></p>
                     </div>
                     <br/>
