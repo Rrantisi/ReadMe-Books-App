@@ -59,8 +59,6 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 
 ![ReadMe-App](/src/images/8.png)
 
-![ReadMe-App](/src/images/9.png)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Built With
