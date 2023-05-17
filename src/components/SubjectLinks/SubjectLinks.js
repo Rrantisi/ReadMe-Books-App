@@ -43,12 +43,12 @@ export default function SubjectLinks({ setBooks }) {
 
   return (
     <div className="SubjectLinks">
+      {error && <p>{error}</p>}
       {subjects.map((link, index) => (
         <span key={index} onClick={() => handleSubjectClick(link.subject)} >
           <img src={link.src} alt="thumbnail"></img>
         </span>
       ))}
-      <p className="error-message">&nbsp;{error}</p>
     </div>
   ); 
 }

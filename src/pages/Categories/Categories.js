@@ -38,6 +38,7 @@ export default function Categories() {
     const loaded = () => {
         return (
             <>
+                {error && <p>{error}</p>}
                 <option value="">Select a Category</option>
                 { categories.map(item => {
                     return (
