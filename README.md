@@ -71,7 +71,7 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 - [MongoDB](https://mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
 - [Heroku](https://www.heroku.com/)
-- [Google-Books-Api](https://developers.google.com/books/docs/v1/using)
+- [Google Books Api](https://developers.google.com/books/docs/v1/using)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Icebox Items
