@@ -65,14 +65,14 @@
     text-align: left;
 }
 
-.description {
-    height: 30vmin;
+.book-details > .description {
+    height: 35vmin;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
-.description {
-    margin-top: 0;
-}
+
+
 
 
 

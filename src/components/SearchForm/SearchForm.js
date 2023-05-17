@@ -1,17 +1,22 @@
 import './SearchForm.css'
 import { useState } from 'react';
 import SearchResult from '../../pages/SearchResult/SearchResult';
+import Categories from '../../pages/Categories/Categories'
 
 export default function SearchForm() {
+    const [menuOption, setMenuOption] = useState('');
     const [searchInput, setSearchInput] = useState('');
     const [searchResult, setSearchResult] = useState([]);
 
     const key = process.env.REACT_APP_API_KEY
 
-    const URL = `https://www.googleapis.com/books/v1/volumes?q=${searchInput}&key=${key}`;
-
-    async function handleSubmit(event) {
+    function handleSubmit(event) {
         event.preventDefault();
+        handleSearch(searchInput)
+    }
+
+    async function handleSearch(input) {
+        const URL = `https://www.googleapis.com/books/v1/volumes?q=${input}&key=${key}`;
         const response = await fetch(URL);
         const result = await response.json();
         setSearchResult(result.items);
@@ -22,6 +27,10 @@ export default function SearchForm() {
         setSearchInput(event.target.value);
     }
 
+    function handleOptionChange(event) {
+        setMenuOption(event.target.value);
+        handleSearch(event.target.value);
+    }
     return (
         <div className="SearchForm">
         <form onSubmit={handleSubmit}>
@@ -29,6 +38,12 @@ export default function SearchForm() {
                 Search Books:
             </label>
             <input type="text" value={searchInput} onChange={handleChange} />
+            <div className="DropDownMenu">
+                <select value={menuOption} onChange={handleOptionChange}>
+                    <Categories />
+                </select>
+            </div>
+
             <button type="submit">Search</button>
         </form>
         < hr/>
@@ -37,5 +52,4 @@ export default function SearchForm() {
         </div>
         </div>
     )
-
 }

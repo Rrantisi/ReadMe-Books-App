@@ -4,7 +4,6 @@ import { useState } from 'react';
 import SignUpForm from '../../components/SignUpForm/SignUpForm';
 import LogInForm from '../../components/LogInForm/LogInForm';
 import Main from '../../pages/Main/Main';
-// import logo from '../../components/Nav/logo.png'
 
 export default function AuthPage({ setUser }) {
     const [userStatus, setUserStatus] = useState(false);

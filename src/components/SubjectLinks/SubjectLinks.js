@@ -18,7 +18,7 @@ export default function SubjectLinks({ setBooks }) {
 
     async function handleSubjectClick(subject) {
         try {
-            const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=subject:${subject}&maxResults=12&key=${key}`)
+            const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=subject:${subject}&maxResults=10&key=${key}`)
             const bookData = await response.json();
             setBooks(bookData.items)
         } catch (error) {

@@ -19,8 +19,6 @@ export default function Nav({ user, setUser }) {
                 <span>ReadMe</span>
             </div>
             <div className="nav-links">
-                <Link to="/categories">Home</Link>
-                &nbsp; | &nbsp;
                 <Link to="/books">Books</Link>
                 &nbsp; | &nbsp;
                 <Link to="/search">Search</Link>

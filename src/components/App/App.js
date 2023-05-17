@@ -25,7 +25,6 @@ export default function App() {
             <Route path="/books" element={ <Books books={books} setBooks={setBooks}/> } />
             <Route path="/books/:id" element={ <Book /> } />
             <Route path="/search" element={ <SearchForm /> } />
-            <Route path="/categories" element={ <Categories /> } />
           </Routes>
         </>
       ) : (

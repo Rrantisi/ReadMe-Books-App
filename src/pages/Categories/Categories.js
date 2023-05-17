@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 
-export default function Categories() {
+export default function Categories({ setMenuOption }) {
     const [categories, setCategories] = useState([]);
  
     const key = process.env.REACT_APP_API_KEY
-    const URL = `https://www.googleapis.com/books/v1/volumes/?q=category:*&maxResults=30&key=${key}`;
+    const URL = `https://www.googleapis.com/books/v1/volumes/?q=category:*&maxResults=40&key=${key}`;
 
     const fetchCategories = async () => {
         try {
@@ -35,23 +35,18 @@ export default function Categories() {
     }
 
     const loaded = () => {
+
         return (
             <>
-            <div className="Categories">
+                <option value="">Select a Category</option>
                 { categories.map(item => {
                     return (
-                        //   <Link to={`/books/${book.id}`} key={book.id}>
-                        //       <div className="category-container"> 
-                                <h2 key={item}>{item}</h2>
-                        //           <img src={book.volumeInfo.imageLinks?.thumbnail} alt="book-cover" />
-                        //      </div> 
-                        //   </Link>
+                        <option value={item}>{item}</option>
                     )
                 })}
-            </div>
             </>
         )
     }
 
-    return <section>{categories ? loaded() : loading()}</section>
+    return <>{categories ? loaded() : loading()}</>
 }

@@ -23,17 +23,17 @@
 }
 
 .SearchForm input {
-    width: 60vmin;
-    height: 8vmin;
+    width: 50vmin;
+    height: 6vmin;
     padding: 2vmin 2vmin;
     outline: none;
     font-size: 2vmin;
     border-radius: 0.2vmin;
     border: none;
-    background-color: #5b6e8524;
+    background-color: aliceblue;
 }
 
-.SearchForm input:hover{
+.SearchForm input:hover, .DropDownMenu > select:hover{
     background-color: #5b6e850a;
     transition: 500ms;
 }
@@ -43,7 +43,7 @@
     outline: none;
     border: none;
     font-size: 2vmin;
-    background-color: #5b6e85;
+    background-color: #2c3b4d;
     color: white;
     text-transform: uppercase;
     cursor: pointer;
@@ -53,3 +53,16 @@
 .SearchForm button:hover {
     border-radius: 2vmin;
 }
+
+.DropDownMenu > select {
+    padding: 1vmin 2vmin;
+    font-size: 1.8vmin;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+    color: #2c3b4d;
+    font-weight: 600;
+}
+
+
+
