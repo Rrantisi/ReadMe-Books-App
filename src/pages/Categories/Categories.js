@@ -1,10 +1,7 @@
-// import './Categories.css';
 import { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom';
 
 export default function Categories() {
     const [categories, setCategories] = useState([]);
-    // const [category, setCategory] = useState('*')
  
     const key = process.env.REACT_APP_API_KEY
     const URL = `https://www.googleapis.com/books/v1/volumes/?q=category:*&maxResults=30&key=${key}`;

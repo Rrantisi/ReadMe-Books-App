@@ -31,7 +31,12 @@ export default function Book(props) {
             <div className="Book">
                 <div className="book-wrapper">
                     <h2>{book.volumeInfo.title}</h2>
-                    <img src={book.volumeInfo.imageLinks?.thumbnail} alt="" />
+                    {book.volumeInfo.imageLinks? (
+                    <img src={book.volumeInfo.imageLinks.thumbnail} alt="book-cover" />
+                    ) : (
+                    <div className="image-fallback">{book.volumeInfo.title}</div>
+                    )
+                    }
                 </div>
                 <div className="book-details">
                     <p><span>Author:</span> {book.volumeInfo.authors?.join(', ')}</p>

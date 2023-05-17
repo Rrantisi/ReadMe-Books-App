@@ -29,7 +29,7 @@ export default function SubjectLinks({ setBooks }) {
     return (
         <div className="SubjectLinks">
           {subjects.map((link, index) => (
-            <span key={index} onClick={() => handleSubjectClick(link.subject)}>
+            <span key={index} onClick={() => handleSubjectClick(link.subject)} >
               <img src={link.src} alt="thumbnail"></img>
             </span>
           ))}

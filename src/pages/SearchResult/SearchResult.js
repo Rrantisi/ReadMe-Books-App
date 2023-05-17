@@ -1,5 +1,5 @@
 import './SearchResult.css';
-import fallback from '../SearchResult/fallback.png';
+import fallback from '../../images/fallback.png';
 
 import { Link } from 'react-router-dom';
 
