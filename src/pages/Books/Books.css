@@ -23,15 +23,7 @@ h1 {
     align-items: center;
     height: 40vmin;
     padding: 4vmin;
-    border: 1px solid #d2deeb;
     background-color: white;
-}
-
-.book-container:hover {
-    /* background-color: #2c3b4d6b; */
-    border: 0.8vmin solid #2c3b4d6b;
-    cursor:pointer;
-    transition: 600ms;
 }
 
 .book-container > img {

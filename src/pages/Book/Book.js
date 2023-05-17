@@ -20,7 +20,7 @@ export default function Book(props) {
 
     useEffect(() => {
         fetchBook();
-    }, []);
+    }, []);    
 
     const loading = () => {
         return <h1>Loading ...</h1>

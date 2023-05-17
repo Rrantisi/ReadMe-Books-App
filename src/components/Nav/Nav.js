@@ -13,11 +13,13 @@ export default function Nav({ user, setUser }) {
         <>
         <nav className="nav">
             <div className="logo-container">
-                <img src={logo} alt="Logo"/>
+                <Link to="/">
+                    <img src={logo} alt="Logo"/>
+                </Link>
                 <span>ReadMe</span>
             </div>
             <div className="nav-links">
-                <Link to="/">Home</Link>
+                <Link to="/categories">Home</Link>
                 &nbsp; | &nbsp;
                 <Link to="/books">Books</Link>
                 &nbsp; | &nbsp;

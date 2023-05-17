@@ -8,6 +8,7 @@ import AuthPage from '../../pages/AuthPage/AuthPage';
 import Books from '../../pages/Books/Books';
 import Book from '../../pages/Book/Book';
 import SearchForm from '../../components/SearchForm/SearchForm';
+import Categories from '../../pages/Categories/Categories';
 import Footer from '../../components/Footer/Footer';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/books" element={ <Books books={books} setBooks={setBooks}/> } />
             <Route path="/books/:id" element={ <Book /> } />
             <Route path="/search" element={ <SearchForm /> } />
+            <Route path="/categories" element={ <Categories /> } />
           </Routes>
         </>
       ) : (

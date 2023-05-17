@@ -15,6 +15,7 @@ export default function AuthPage({ setUser }) {
                 <h1>ReadMe</h1>
                 <img src={logo} alt="Logo"/>
                 <p>ReadMe is an online ebook library that helps you search and access digital copies of books</p>
+                <p>Sign Up today!</p>
             </div>
             <div className="auth-section">
                 {userStatus ? (
