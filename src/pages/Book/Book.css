@@ -69,6 +69,8 @@
     height: 35vmin;
     overflow: scroll;
     overflow-x: hidden;
+    line-height: 6vmin;
+    padding-right: 2vmin;
 }
 
 

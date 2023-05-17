@@ -43,21 +43,23 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 - You can use the Search page to search OR select an category option from the drop-down menu and check out the results.
 - Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book.
 
-![ReadMe-App](/src/images/hb1.jpeg)
+![ReadMe-App](/src/images/1.png)
 
-![ReadMe-App](/src/images/hb2.jpeg)
+![ReadMe-App](/src/images/2.png)
 
-![ReadMe-App](/src/images/hb3.jpeg)
+![ReadMe-App](/src/images/3.png)
 
-![ReadMe-App](/src/images/hb4.jpeg)
+![ReadMe-App](/src/images/4.png)
 
-![ReadMe-App](/src/images/hb5.jpeg)
+![ReadMe-App](/src/images/5.png)
 
-![ReadMe-App](/src/images/hb6.png)
+![ReadMe-App](/src/images/6.png)
 
-![ReadMe-App](/src/images/hb7.png)
+![ReadMe-App](/src/images/7.png)
 
-![ReadMe-App](/src/images/erd.png)
+![ReadMe-App](/src/images/8.png)
+
+![ReadMe-App](/src/images/9.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

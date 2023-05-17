@@ -1,6 +1,7 @@
 import './Book.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import striptags from 'striptags';
 
 export default function Book(props) {
     const { id } = useParams();
@@ -23,11 +24,16 @@ export default function Book(props) {
         fetchBook();
     }, []);    
 
+
     const loading = () => {
         return <h1>Loading ...</h1>
     }
 
     const loaded = () => {
+        
+        // this line of code is to remove HTML tags from book description
+        const strippedDescription = striptags(book.volumeInfo.description);
+
         return (
             <div className="Book">
                 <div className="book-wrapper">
@@ -49,7 +55,7 @@ export default function Book(props) {
                     }
                     <p><span>Description:</span></p>
                     <div className="description">
-                    <p dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} className="description"></p>
+                    <p className="description">{strippedDescription}</p>
                     </div>
                     <br/>
                     <a href={book.volumeInfo.previewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>

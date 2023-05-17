@@ -44,7 +44,6 @@ export default function Categories() {
                         <option value={item} key={item}>{item}</option>
                     )
                 })}
-                <p className="error-message">&nbsp;{error}</p>
             </>
         )
     }
