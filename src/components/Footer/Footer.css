@@ -4,4 +4,5 @@ footer {
     background-color:aliceblue;
     color: #5b6e85;
     font-size: 1em;
+    border-top: 0.3vmin solid #7fbbe022;
 }
