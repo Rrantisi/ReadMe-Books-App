@@ -1,5 +1,5 @@
 import './Main.css';
-import logo from '../../components/Nav/logo.png';
+import logo from '../../images/logo.png'
 
 export default function Main() {
     return (

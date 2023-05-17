@@ -10,11 +10,11 @@ export default function SubjectLinks({ setBooks }) {
     const key = process.env.REACT_APP_API_KEY
 
     const subjects = [
-        {name: 'HTML', subject: 'html', src: html},
-        {name: 'CSS', subject: 'css', src: css},
-        {name: 'JavaScript', subject: 'javascript', src: javascript},
-        {name: 'Python', subject: 'python', src: python},
-        {name: 'SQL', subject: 'sql', src: sql}
+        {subject: 'html', src: html},
+        {subject: 'css', src: css},
+        {subject: 'javascript', src: javascript},
+        {subject: 'python', src: python},
+        {subject: 'sql', src: sql}
     ];
     
     async function fetchBooks(input) {

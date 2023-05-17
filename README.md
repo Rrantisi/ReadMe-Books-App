@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="/src/images/logo.png" alt="ReadMe" width="80" height="80">
+  <h1 align="center">ReadMe</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#icebox">Ice Box</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- CONTENT -->
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- HummingBird is a vibrant online community platform where you can connect with people from your community and build strong relationships.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here's why:
 
-### `npm test`
+- Engage with your local community by creating posts and sharing your knowledge by commenting on someone else's post
+- Ask for recommendations, advice, or any type of help
+- Get to know your neighbors and share common interests and hobbies
+- Make new friends! We really encourage strong community relationships at HummingBird.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Our platform is designed to be a one-stop shop for all your community needs. Whether you are looking for advice or recommendations - you can ask for help and/or donate time by supporting your local community. -->
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[ReadMe App](https://readme-books.herokuapp.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Trello Board](https://trello.com/b/cEi5soEZ/project3-readme)
 
-### `npm run eject`
+Simply Click on the app link, and sign up to create an account.
+Once you have created an account, you'll be able to access our digital books library.
+On the books page, you'll be able to navigate through five coding languages categories - HTML, CSS, JavaScript, Python and SQL
+Each category, when clicked, will fetch 10 books about that subject.
+Looking for something else? 
+You can use the Search page to search or select an option from the drop-down menu and check out the results.
+Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book on 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![humming-bird1](/public/imgs/hb1.jpeg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![humming-bird1](/public/imgs/hb2.jpeg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![humming-bird1](/public/imgs/hb3.jpeg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![humming-bird1](/public/imgs/hb4.jpeg)
 
-## Learn More
+![humming-bird1](/public/imgs/hb5.jpeg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![humming-bird1](/public/imgs/hb6.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![humming-bird1](/public/imgs/hb7.png)
 
-### Code Splitting
+![humming-bird1](/public/imgs/erd.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- EJS
+- CSS
+- Javascript
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [OAuth 2.0](https://console.cloud.google.com/apis/dashboard)
+- [Heroku](https://www.heroku.com/)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Making a Progressive Web App
+## Icebox Items
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Search for posts/people on hummingBird
+2. Like/Save post
+3. Edit/Delete a post
+4. Share post
+5. Notifications feature
 
-### Advanced Configuration
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rehamrantisi/)](https://www.linkedin.com/in/rehamrantisi/) Reham Rantisi - rantisireham19@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
