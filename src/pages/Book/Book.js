@@ -7,6 +7,7 @@ export default function Book(props) {
     const URL = `https://www.googleapis.com/books/v1/volumes/${id}`;
 
     const [book, setBook] = useState(null);
+    const [error, setError] = useState('');
 
     const fetchBook = async () => {
         try {
@@ -14,7 +15,7 @@ export default function Book(props) {
             const bookData = await response.json();
             setBook(bookData);
         } catch (error) {
-
+            setError('Something went wrong.. Try Again Later');
         }
     }
 
@@ -53,6 +54,7 @@ export default function Book(props) {
                     <br/>
                     <a href={book.volumeInfo.previewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
                 </div>
+                <p className="error-message">&nbsp;{error}</p>
             </div>
         )
     }

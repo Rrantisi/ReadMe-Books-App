@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 
-export default function Categories({ setMenuOption }) {
+export default function Categories() {
     const [categories, setCategories] = useState([]);
+    const [error, setError] = useState('');
  
     const key = process.env.REACT_APP_API_KEY
     const URL = `https://www.googleapis.com/books/v1/volumes/?q=category:*&maxResults=40&key=${key}`;
@@ -22,7 +23,7 @@ export default function Categories({ setMenuOption }) {
 
             setCategories(Array.from(categoriesSet));
         } catch (error) {
-
+            setError('Something went wrong.. Try Again Later');
         }
     }
 
@@ -35,7 +36,6 @@ export default function Categories({ setMenuOption }) {
     }
 
     const loaded = () => {
-
         return (
             <>
                 <option value="">Select a Category</option>
@@ -44,9 +44,9 @@ export default function Categories({ setMenuOption }) {
                         <option value={item} key={item}>{item}</option>
                     )
                 })}
+                <p className="error-message">&nbsp;{error}</p>
             </>
         )
     }
-
     return <>{categories ? loaded() : loading()}</>
 }
