@@ -6,7 +6,7 @@ import striptags from 'striptags';
 export default function Book(props) {
     const { id } = useParams();
     const URL = `https://www.googleapis.com/books/v1/volumes/${id}`;
-    const previewLink = `https://books.google.com/books?id=${id}&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false`
+    const previewLink = `https://books.google.com/books?id=${id}&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false`;
     
     const [book, setBook] = useState(null);
     const [error, setError] = useState('');
