@@ -22,7 +22,7 @@
 
 ## About the Project
 
-ReadMe is a Digital Book App mainly focused on delivering coding-related books.
+ReadMe is a Digital Book App mainly focused on delivering resources for programming-related subjects.
 Browse through our user-friendly interface to explore books about major coding languages or use the search bar or drop-down menu to search for other books.
 
 Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go!
@@ -35,7 +35,7 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 
 - Simply Click on the app link, and sign up to create an account.
 - Once you have created an account, you'll be able to access our digital books library.
-- On the books page, you'll be able to navigate through five coding languages categories - HTML, CSS, JavaScript, Python and SQL
+- On the books page, you'll be able to navigate through major coding languages categories.
 - Each category, when clicked, will fetch 10 books related to that subject.
 #### Looking for something else? 
 - You can use the Search page to search OR select a category option from the drop-down menu and check out the results.
