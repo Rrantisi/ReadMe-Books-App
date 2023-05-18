@@ -27,7 +27,8 @@ Browse through our user-friendly interface to explore books about major coding l
 
 Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go!
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+[:arrow_up:Back to top](#ReadMe)
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Getting Started
 
@@ -53,7 +54,8 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 
 ![ReadMe-App](/src/images/12.png)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+[:arrow_up:Back to top](#ReadMe)
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Built With
 
@@ -67,7 +69,9 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 - [Mongoose](https://mongoosejs.com/)
 - [Heroku](https://www.heroku.com/)
 - [Google Books Api](https://developers.google.com/books/docs/v1/using)
-<p align="right">(<a href="#top">back to top</a>)</p>
+
+[:arrow_up:Back to top](#ReadMe)
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Icebox Items
 
@@ -78,11 +82,13 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 5. Share a book with a friend
 6. Filter books by category/author
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+[:arrow_up:Back to top](#ReadMe)
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rehamrantisi/)](https://www.linkedin.com/in/rehamrantisi/) Reham Rantisi - rantisireham19@gmail.com
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
+[:arrow_up:Back to top](#ReadMe)
 

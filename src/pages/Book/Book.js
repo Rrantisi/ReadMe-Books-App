@@ -3,10 +3,11 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import striptags from 'striptags';
 
-export default function Book({bookPreviewLink}) {
+export default function Book(props) {
     const { id } = useParams();
     const URL = `https://www.googleapis.com/books/v1/volumes/${id}`;
-
+    const previewLink = `https://books.google.com/books?id=${id}&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false`
+    
     const [book, setBook] = useState(null);
     const [error, setError] = useState('');
 
@@ -30,7 +31,6 @@ export default function Book({bookPreviewLink}) {
     }
 
     const loaded = () => {
-        
         // this line of code is to remove HTML tags from book description
         const strippedDescription = striptags(book.volumeInfo.description);
 
@@ -58,7 +58,7 @@ export default function Book({bookPreviewLink}) {
                     <p className="description">{strippedDescription}</p>
                     </div>
                     <br/>
-                    <a href={bookPreviewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
+                    <a href={previewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
                 </div>
                 <p className="error-message">&nbsp;{error}</p>
             </div>
