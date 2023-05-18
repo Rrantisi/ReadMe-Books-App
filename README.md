@@ -70,9 +70,9 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 1. Add a book to favorites
 2. Remove a book from favorites
 3. View favorites
-4. Preview book content directly in our app
-5. Share a book with a friend
-6. Filter books by category/author
+4. Share a book with a friend 
+5. Add Cheatsheet Page
+6. Preview book content directly in our app
 
 ## Contribution Guidelines
 

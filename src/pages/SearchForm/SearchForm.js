@@ -1,7 +1,7 @@
 import './SearchForm.css'
 import { useState } from 'react';
-import SearchResult from '../../pages/SearchResult/SearchResult';
-import Categories from '../../pages/Categories/Categories'
+import SearchResult from '../../components/SearchResult/SearchResult';
+import Categories from '../../components/Categories/Categories'
 
 export default function SearchForm() {
     const [menuOption, setMenuOption] = useState('');

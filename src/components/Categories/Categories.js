@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import ErrorPage from '../ErrorPage/ErrorPage';
+import ErrorPage from '../../pages/ErrorPage/ErrorPage';
 
 export default function Categories() {
     const [categories, setCategories] = useState([]);

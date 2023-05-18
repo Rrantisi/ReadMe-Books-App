@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
 import Nav from '../../components/Nav/Nav';
-import Main from '../../pages/Main/Main';
-import AuthPage from '../../pages/AuthPage/AuthPage';
-import Books from '../../pages/Books/Books';
-import Book from '../../pages/Book/Book';
-import SearchForm from '../../components/SearchForm/SearchForm';
+import Main from '../Main/Main';
+import AuthPage from '../AuthPage/AuthPage';
+import Books from '../Books/Books';
+import Book from '../Book/Book';
+import SearchForm from '../SearchForm/SearchForm';
 import Footer from '../../components/Footer/Footer';
-import ErrorPage from '../../pages/ErrorPage/ErrorPage';
+import ErrorPage from '../ErrorPage/ErrorPage';
 
 export default function App() {
   const [books, setBooks] = useState([]);
