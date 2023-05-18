@@ -39,7 +39,7 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 - On the books page, you'll be able to navigate through major coding languages categories.
 - Each category, when clicked, will fetch 10 books related to that subject.
 #### Looking for something else? 
-- You can use the Search page to search OR select a category option from the drop-down menu and check out the results.
+- You can access the Search page to search OR select an option from the drop-down menu and check out the book results.
 - Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book.
 
 ![ReadMe-App](/src/images/1.png)
