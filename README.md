@@ -14,6 +14,7 @@
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#icebox">Ice Box</a></li>
+    <li><a href="#contribution-guidelines">Contribution Guidelines</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -72,6 +73,16 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 4. Preview book content directly in our app
 5. Share a book with a friend
 6. Filter books by category/author
+
+## Contribution Guidelines
+
+To Contribute to this project, please follow these steps:
+
+1. Fork the repository and create a new branch for your contributions.
+2. Make your changes and please ensure they adhere to the project's coding convetions and style guidelines.
+3. Test your changes and make sure they don't produce any error.
+4. Commit your changes and push them to your forked repository.
+5. Submit a pull request with a clear explanation of the purpose and details of your contribution.
 
 ## Contact
 
