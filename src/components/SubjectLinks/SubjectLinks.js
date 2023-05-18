@@ -4,6 +4,11 @@ import css from '../../images/css.png';
 import sql from '../../images/sql.png';
 import python from '../../images/python.png';
 import javascript from '../../images/js.png';
+import java from '../../images/java.png';
+import csharp from '../../images/csharp.png';
+import cplus from '../../images/c++.png';
+import swift from '../../images/swift.png';
+import mongodb from '../../images/mongo_db.png';
 import { useEffect, useState } from 'react';
 
 export default function SubjectLinks({ setBooks }) {
@@ -16,7 +21,12 @@ export default function SubjectLinks({ setBooks }) {
     {subject: 'css', src: css},
     {subject: 'javascript', src: javascript},
     {subject: 'python', src: python},
-    {subject: 'sql', src: sql}
+    {subject: 'sql', src: sql},
+    {subject: 'java AND programming', src: java},
+    {subject: 'c sharp', src: csharp},
+    {subject: 'c++', src: cplus},
+    {subject: 'swift programming', src: swift},
+    {subject: 'mongodb', src: mongodb},
   ];
     
   async function fetchBooks(input) {

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import striptags from 'striptags';
 
-export default function Book(props) {
+export default function Book({bookPreviewLink}) {
     const { id } = useParams();
     const URL = `https://www.googleapis.com/books/v1/volumes/${id}`;
 
@@ -58,7 +58,7 @@ export default function Book(props) {
                     <p className="description">{strippedDescription}</p>
                     </div>
                     <br/>
-                    <a href={book.volumeInfo.previewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
+                    <a href={bookPreviewLink} target={'_blank'} rel="noreferrer">Preview Book Here</a>
                 </div>
                 <p className="error-message">&nbsp;{error}</p>
             </div>

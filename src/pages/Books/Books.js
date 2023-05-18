@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import SubjectLinks from '../../components/SubjectLinks/SubjectLinks';
 
 export default function Books({books, setBooks}) {
-
     return (
         <section>
         <SubjectLinks setBooks={setBooks} />
