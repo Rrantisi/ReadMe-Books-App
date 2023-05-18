@@ -70,3 +70,7 @@ nav img {
 .logo-container > span {
   font-size: 2.5vmin;
 }
+
+#welcome-user {
+  text-transform: capitalize;
+}
