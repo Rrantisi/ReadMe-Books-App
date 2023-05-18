@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1 align="center">ReadMe</h1>
     <img src="/src/images/logo.png" alt="ReadMe" width="80" height="80">
+  <h1 align="center">ReadMe</h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
