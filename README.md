@@ -79,7 +79,7 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 To Contribute to this project, please follow these steps:
 
 1. Fork the repository and create a new branch for your contributions.
-2. Make your changes and please ensure they adhere to the project's coding convetions and style guidelines.
+2. Make your changes.
 3. Test your changes and make sure they don't produce any error.
 4. Commit your changes and push them to your forked repository.
 5. Submit a pull request with a clear explanation of the purpose and details of your contribution.
