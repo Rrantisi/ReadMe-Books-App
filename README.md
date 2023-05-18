@@ -27,9 +27,6 @@ Browse through our user-friendly interface to explore books about major coding l
 
 Acquire knowledge and embrace the convenience and flexibility of learning and reading on-the-go!
 
-[:arrow_up:Back to top](#ReadMe)
-<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
-
 ## Getting Started
 
 [ReadMe App](https://readme-books.herokuapp.com/)
@@ -54,9 +51,6 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 
 ![ReadMe-App](/src/images/12.png)
 
-[:arrow_up:Back to top](#ReadMe)
-<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
-
 ## Built With
 
 - CSS
@@ -70,9 +64,6 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 - [Heroku](https://www.heroku.com/)
 - [Google Books Api](https://developers.google.com/books/docs/v1/using)
 
-[:arrow_up:Back to top](#ReadMe)
-<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
-
 ## Icebox Items
 
 1. Add a book to favorites
@@ -82,13 +73,10 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 5. Share a book with a friend
 6. Filter books by category/author
 
-[:arrow_up:Back to top](#ReadMe)
-<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
-
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rehamrantisi/)](https://www.linkedin.com/in/rehamrantisi/) Reham Rantisi - rantisireham19@gmail.com
 
-<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
-[:arrow_up:Back to top](#ReadMe)
+<br><hr>
+[:arrow_up: Back to top](#ReadMe)
 
