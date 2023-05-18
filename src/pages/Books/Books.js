@@ -9,7 +9,7 @@ export default function Books({books, setBooks}) {
         <div className="Books">
             { books.map(book => {
                 return (
-                    <Link to={`/books/${book.id}`} key={book.id}>
+                    <Link to={`/books/${book.id}`} key={book.id} >
                         <div className="book-container">
                         {book.volumeInfo.imageLinks? (
                         <img src={book.volumeInfo.imageLinks.thumbnail} alt="book-cover" />

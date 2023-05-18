@@ -2,8 +2,9 @@ import './Book.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import striptags from 'striptags';
+import ErrorPage from '../ErrorPage/ErrorPage';
 
-export default function Book(props) {
+export default function Book() {
     const { id } = useParams();
     const URL = `https://www.googleapis.com/books/v1/volumes/${id}`;
     const previewLink = `https://books.google.com/books?id=${id}&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false`;
@@ -19,12 +20,14 @@ export default function Book(props) {
         } catch (error) {
             setError('Something went wrong.. Try Again Later');
         }
+        if(error) {
+            return <ErrorPage error={error}/>
+        } 
     }
 
     useEffect(() => {
         fetchBook();
-    }, []);    
-
+    }, []); 
 
     const loading = () => {
         return <h1>Loading ...</h1>
