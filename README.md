@@ -9,6 +9,7 @@
 
 <details>
   <summary>Table of Contents</summary>
+
   <ol>
     <li><a href="#about-the-project">About The Project</a>
     <li><a href="#getting-started">Getting Started</a></li>
@@ -38,8 +39,7 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 - Once you have created an account, you'll be able to access our digital books library.
 - On the books page, you'll be able to navigate through major coding languages categories.
 - Each category, when clicked, will fetch 10 books related to that subject.
-#### Looking for something else? 
-- You can access the Search page to search OR select an option from the drop-down menu and check out the book results.
+- You can also access the Search page to search for any book. 
 - Each book displayed in our app is clickable. Once clicked, you can view more details about the book and will also have the option to preview the book.
 
 ![ReadMe-App](/src/images/1.png)
