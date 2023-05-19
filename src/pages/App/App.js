@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { getUser } from '../../utilities/users-service';
 import './App.css';
 import Nav from '../../components/Nav/Nav';

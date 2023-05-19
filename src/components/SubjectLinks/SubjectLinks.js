@@ -39,9 +39,6 @@ export default function SubjectLinks({ setBooks }) {
     } catch {
       setError('Something went wrong.. Try Again Later');
     }
-    if(error) {
-      return <ErrorPage error={error}/>
-    }
   }
 
   function handleSubjectClick(subject) {
