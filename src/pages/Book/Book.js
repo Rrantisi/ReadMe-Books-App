@@ -1,6 +1,7 @@
 import './Book.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+// striptags is used to remove HTML or XML tags from a given string
 import striptags from 'striptags';
 import ErrorPage from '../ErrorPage/ErrorPage';
 
@@ -34,7 +35,7 @@ export default function Book() {
     }
 
     const loaded = () => {
-        // this line of code is to remove HTML tags from book description
+        // striptags function removes HTML tags from book description
         const strippedDescription = striptags(book.volumeInfo.description);
 
         return (

@@ -33,23 +33,23 @@ export default function SearchForm() {
     }
     return (
         <div className="SearchForm">
-        <form onSubmit={handleSubmit}>
-            <label>
-                Search Books:
-            </label>
-            <input type="text" value={searchInput} onChange={handleChange} />
-            <div className="DropDownMenu">
-                <select value={menuOption} onChange={handleOptionChange}>
-                    <Categories />
-                </select>
-            </div>
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Search Books:
+                </label>
+                <input type="text" value={searchInput} onChange={handleChange} />
+                <div className="DropDownMenu">
+                    <select value={menuOption} onChange={handleOptionChange}>
+                        <Categories />
+                    </select>
+                </div>
 
-            <button type="submit">Search</button>
-        </form>
-        < hr/>
-        <div className="SearchResult">
-            <SearchResult searchResult={searchResult} />
-        </div>
+                <button type="submit">Search</button>
+            </form>
+            < hr/>
+            <div className="SearchResult">
+                <SearchResult searchResult={searchResult} />
+            </div>
         </div>
     )
 }

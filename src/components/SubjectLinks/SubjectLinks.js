@@ -9,7 +9,6 @@ import csharp from '../../images/csharp.png';
 import cplus from '../../images/c++.png';
 import swift from '../../images/swift.png';
 import mongodb from '../../images/mongo_db.png';
-import ErrorPage from '../../pages/ErrorPage/ErrorPage';
 
 import { useEffect, useState } from 'react';
 

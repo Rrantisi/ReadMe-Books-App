@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import ErrorPage from '../../pages/ErrorPage/ErrorPage';
 
 export default function Categories() {
     const [categories, setCategories] = useState([]);
@@ -25,9 +24,6 @@ export default function Categories() {
             setCategories(Array.from(categoriesSet));
         } catch (error) {
             setError('Something went wrong.. Try Again Later');
-        }
-        if(error) {
-            return <ErrorPage error={error}/>
         }
     }
 
