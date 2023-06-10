@@ -52,6 +52,8 @@ Acquire knowledge and embrace the convenience and flexibility of learning and re
 
 ![ReadMe-App](/src/images/12.png)
 
+<a href="https://www.flaticon.com/free-icons/ebook" title="ebook icons">Ebook icons created by Freepik - Flaticon</a>
+
 ## Built With
 
 - CSS
